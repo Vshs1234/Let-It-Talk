@@ -1,3 +1,4 @@
+# in order to make this code work...make sure that u place all these files in a single folder
 from tkinter import *
 from tkinter import filedialog
 from tkinter.ttk import Combobox
@@ -66,7 +67,7 @@ def save():
         else:
             engine.setProperty('rate',60)
             settingvoice()
-# frame up
+
 f1=Frame(ar,bg="white",width=900,height=80)
 f1.place(x=0,y=0)
 mike=PhotoImage(file="mike.png")
